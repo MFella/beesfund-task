@@ -28,8 +28,7 @@ setTimeout(() =>
     const days = ['Niedziela', 'Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota'];
 
     status.events.events.forEach((el, index) => {
-        console.log(el);
-        //renderIcons(el.type);
+
         elements[index].src = `./icons/${el.type}.svg`;
         let temp = new Date(el.datetime);
         let day = days[new Date(el.datetime).getDay()];
