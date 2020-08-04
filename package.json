@@ -1,0 +1,22 @@
+{
+  "name": "fund-solution",
+  "version": "1.0.0",
+  "description": "Solution for junior frontend task",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "Cezary Wrzesinski",
+  "license": "ISC",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

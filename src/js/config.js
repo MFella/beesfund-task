@@ -1,0 +1,1 @@
+export const apiUrl = 'https://dev.bfund.ovh/api/events/1197';

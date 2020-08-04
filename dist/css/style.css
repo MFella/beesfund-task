@@ -1,0 +1,56 @@
+.dateS
+{
+    font-size: 1rem;
+}
+.calendar
+{
+    width:1.5rem;
+    margin-right: 1rem;
+}
+
+.happy
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.wyd
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.arr
+{
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1000px) and (min-width:770px)
+{
+
+    .iconS
+    {
+        width: 7rem;
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width: 770px) and (min-width: 576px)
+{
+
+    .iconS
+    {
+        width: 6rem;
+        margin-top: 5rem;
+    }
+
+    .desc
+    {
+        height: 19rem;
+        overflow-y:scroll;
+    }
+    .happy
+    {
+        font-size: .85rem;
+    }
+}
